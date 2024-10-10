@@ -1,18 +1,30 @@
 # qlmRos2_homework
 
-# build
+## Comments
+It is worth checking if Python is installed in the Microsoft Store, as this may cause build difficulties.
+
+## Overview
+This ROS2 node is designed to perform division on two incoming floating-point numbers. The node subscribes to the `/input_numbers` topic, where it expects the numbers to be received in the form of a `Float64MultiArray` message. The result of the division is published on the `/division_result` topic.
+
+
+## Dependencies
+The following ROS2 packages are required to run this node:
+- `rclcpp`
+- `std_msgs`
+
+## Build
 - Open: developer command prompt for vs 2022
 - Go to project folder: > cd C:\Users\Asus\Documents\Git\qlmRos2_homework
 - Set environment variables > call install/setup.bat
 - build > colcon build
 
-# run 
+## Run 
 - open cmd 
 - Go to project folder: > cd C:\Users\Asus\Documents\Git\qlmRos2_homework
 - Set environment variables > call install/setup.bat
 - run node: > ros2 run cpp_pubsub division_node
 
-# test 
+## Test 
 -- TEST PUBLISHER 
 - open cmd 
 - Go to project folder: > cd C:\Users\Asus\Documents\Git\qlmRos2_homework
@@ -25,7 +37,7 @@
 - Set environment variables > call install/setup.bat
 - Run test sub.: > ros2 topic echo /division_result
 
-# result
+## Result
 
 -- NODE 
 C:\Users\Asus\Documents\Git\qlmRos2_homework>ros2 run cpp_pubsub division_node

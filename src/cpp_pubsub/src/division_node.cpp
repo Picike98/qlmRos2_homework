@@ -16,11 +16,18 @@ public:
 
 private:
     void topic_callback(const std_msgs::msg::Float64MultiArray::SharedPtr msg) {
+
+        if (msg->data.size() != 2) {
+            RCLCPP_ERROR(this->get_logger(), "Error: Expected exactly 2 numbers in the input.");
+            return;
+        }
+
         // Extract numbers
         double num1 = msg->data[0];
         double num2 = msg->data[1];
 
         RCLCPP_INFO(this->get_logger(),"Msg rec.");
+
         // Division
         if (num2 == 0) {
             RCLCPP_ERROR(this->get_logger(), "Error: Division by zero!");
