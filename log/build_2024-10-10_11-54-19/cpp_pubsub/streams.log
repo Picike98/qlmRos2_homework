@@ -1,0 +1,12 @@
+[0.094s] Invoking command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub --config Release
+[0.219s] MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+[0.453s] 
+[1.422s]   1>Checking Build System
+[1.609s]   Building Custom Rule C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt
+[1.781s]   division_node.cpp
+[3.547s] C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(55,1): error C2143: syntax error: missing ';' before '}' [C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\division_node.vcxproj]
+[3.688s]   Building Custom Rule C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt
+[3.797s]   listener.vcxproj -> C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\Release\listener.exe
+[3.906s]   Building Custom Rule C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt
+[3.984s]   talker.vcxproj -> C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\Release\talker.exe
+[4.047s] Invoked command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub' returned '1': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub --config Release

@@ -1,0 +1,20 @@
+[0.125s] Invoking command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub --config Release
+[0.266s] MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+[0.578s] 
+[1.797s]   1>Checking Build System
+[2.031s]   Building Custom Rule C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt
+[2.250s]   division_node.cpp
+[4.094s] C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(42,5): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers [C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\division_node.vcxproj]
+[4.109s] C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(42,5): error C2062: type 'unknown-type' unexpected [C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\division_node.vcxproj]
+[4.109s] C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(42,5): error C2039: 'value': is not a member of '`global namespace'' [C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\division_node.vcxproj]
+[4.109s] C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(42,5): error C2660: 'rcutils_log': function does not take 3 arguments [C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\division_node.vcxproj]
+[4.109s]       C:\dev\ros2_humble\include\rcutils\rcutils\logging.h(475,6):
+[4.109s]       see declaration of 'rcutils_log'
+[4.109s]       C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(42,5):
+[4.109s]       while trying to match the argument list '(rcutils_log_location_t *, RCUTILS_LOG_SEVERITY, const char [5])'
+[4.109s]   
+[4.203s]   Building Custom Rule C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt
+[4.328s]   listener.vcxproj -> C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\Release\listener.exe
+[4.438s]   Building Custom Rule C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt
+[4.516s]   talker.vcxproj -> C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\Release\talker.exe
+[4.578s] Invoked command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub' returned '1': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub --config Release

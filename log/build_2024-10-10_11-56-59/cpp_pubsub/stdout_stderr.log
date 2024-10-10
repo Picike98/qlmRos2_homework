@@ -1,0 +1,29 @@
+MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt
+  division_node.cpp
+C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(18,46): error C2039: 'float64_multi_array': is not a member of 'std_msgs::msg' [C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\division_node.vcxproj]
+      C:\dev\ros2_humble\include\std_msgs\std_msgs\msg\detail\float64_multi_array__traits.hpp(24,11):
+      see declaration of 'std_msgs::msg'
+  
+C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(18,46): error C3083: 'float64_multi_array': the symbol to the left of a '::' must be a type [C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\division_node.vcxproj]
+C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(18,67): error C2039: 'SharedPtr': is not a member of 'std_msgs::msg' [C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\division_node.vcxproj]
+      C:\dev\ros2_humble\include\std_msgs\std_msgs\msg\detail\float64_multi_array__traits.hpp(24,11):
+      see declaration of 'std_msgs::msg'
+  
+C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(9,66): error C2039: 'float64_multi_array': is not a member of 'std_msgs::msg' [C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\division_node.vcxproj]
+      C:\dev\ros2_humble\include\std_msgs\std_msgs\msg\detail\float64_multi_array__traits.hpp(24,11):
+      see declaration of 'std_msgs::msg'
+  
+C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(9,66): error C2065: 'float64_multi_array': undeclared identifier [C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\division_node.vcxproj]
+C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(9,31): error C2672: 'rclcpp::Node::create_subscription': no matching overloaded function found [C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\division_node.vcxproj]
+      C:\dev\ros2_humble\include\rclcpp\rclcpp\node.hpp(219,3):
+      could be 'std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const std::string &,const rclcpp::QoS &,CallbackT &&,const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT> &,MessageMemoryStrategyT::SharedPtr)'
+          C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(9,66):
+          'rclcpp::Node::create_subscription': invalid template argument for 'MessageT', type expected
+  
+  Building Custom Rule C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt
+  listener.vcxproj -> C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\Release\listener.exe
+  Building Custom Rule C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt
+  talker.vcxproj -> C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\Release\talker.exe

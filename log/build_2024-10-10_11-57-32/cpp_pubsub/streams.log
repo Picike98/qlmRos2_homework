@@ -1,0 +1,57 @@
+[0.109s] Invoking command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub --config Release
+[0.203s] MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+[0.438s] 
+[1.469s]   1>Checking Build System
+[1.703s]   Building Custom Rule C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt
+[1.906s]   division_node.cpp
+[3.703s] C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(18,46): error C2039: 'float64_multi_array': is not a member of 'std_msgs::msg' [C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\division_node.vcxproj]
+[3.719s]       C:\dev\ros2_humble\include\std_msgs\std_msgs\msg\detail\float64_multi_array__traits.hpp(24,11):
+[3.719s]       see declaration of 'std_msgs::msg'
+[3.719s]   
+[3.719s] C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(18,46): error C3083: 'float64_multi_array': the symbol to the left of a '::' must be a type [C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\division_node.vcxproj]
+[3.719s] C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(18,67): error C2039: 'SharedPtr': is not a member of 'std_msgs::msg' [C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\division_node.vcxproj]
+[3.719s]       C:\dev\ros2_humble\include\std_msgs\std_msgs\msg\detail\float64_multi_array__traits.hpp(24,11):
+[3.719s]       see declaration of 'std_msgs::msg'
+[3.719s]   
+[3.719s] C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(40,41): error C2039: 'float64_multi_array': is not a member of 'std_msgs::msg' [C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\division_node.vcxproj]
+[3.719s]       C:\dev\ros2_humble\include\std_msgs\std_msgs\msg\detail\float64_multi_array__traits.hpp(24,11):
+[3.719s]       see declaration of 'std_msgs::msg'
+[3.719s]   
+[3.719s] C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(40,41): error C2065: 'float64_multi_array': undeclared identifier [C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\division_node.vcxproj]
+[3.719s] C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(40,13): error C2923: 'rclcpp::Subscription': 'float64_multi_array' is not a valid template type argument for parameter 'MessageT' [C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\division_node.vcxproj]
+[3.719s]       C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(40,41):
+[3.719s]       see declaration of 'float64_multi_array'
+[3.719s]   
+[3.719s] C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(40,13): error C2976: 'rclcpp::Subscription': too few template arguments [C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\division_node.vcxproj]
+[3.719s]       C:\dev\ros2_humble\include\rclcpp\rclcpp\subscription.hpp(75,7):
+[3.719s]       see declaration of 'rclcpp::Subscription'
+[3.719s]   
+[3.719s] C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(40,63): error C2955: 'rclcpp::Subscription': use of class template requires template argument list [C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\division_node.vcxproj]
+[3.719s]       C:\dev\ros2_humble\include\rclcpp\rclcpp\subscription.hpp(75,7):
+[3.719s]       see declaration of 'rclcpp::Subscription'
+[3.719s]   
+[3.719s] C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(5,7): warning C4624: 'DivisionNode': destructor was implicitly defined as deleted [C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\division_node.vcxproj]
+[3.719s] C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(42,1): error C2282: 'DivisionNode::~DivisionNode' cannot override 'rclcpp::Node::~Node' [C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\division_node.vcxproj]
+[3.719s]       C:\dev\ros2_humble\include\rclcpp\rclcpp\node.hpp(107,12):
+[3.719s]       'rclcpp::Node::~Node' is not deleted
+[3.719s]   
+[3.719s] C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(7,44): error C2512: 'std::shared_ptr<rclcpp::Subscription<MessageT,AllocatorT,SubscribedT,ROSMessageT,MessageMemoryStrategyT>>': no appropriate default constructor available [C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\division_node.vcxproj]
+[3.719s]       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1560,7):
+[3.719s]       see declaration of 'std::shared_ptr<rclcpp::Subscription<MessageT,AllocatorT,SubscribedT,ROSMessageT,MessageMemoryStrategyT>>'
+[3.719s]   
+[3.719s] C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(9,66): error C2039: 'float64_multi_array': is not a member of 'std_msgs::msg' [C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\division_node.vcxproj]
+[3.719s]       C:\dev\ros2_humble\include\std_msgs\std_msgs\msg\detail\float64_multi_array__traits.hpp(24,11):
+[3.719s]       see declaration of 'std_msgs::msg'
+[3.719s]   
+[3.719s] C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(9,66): error C2065: 'float64_multi_array': undeclared identifier [C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\division_node.vcxproj]
+[3.719s] C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(9,31): error C2672: 'rclcpp::Node::create_subscription': no matching overloaded function found [C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\division_node.vcxproj]
+[3.719s]       C:\dev\ros2_humble\include\rclcpp\rclcpp\node.hpp(219,3):
+[3.719s]       could be 'std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const std::string &,const rclcpp::QoS &,CallbackT &&,const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT> &,MessageMemoryStrategyT::SharedPtr)'
+[3.719s]           C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub\src\division_node.cpp(9,66):
+[3.719s]           'rclcpp::Node::create_subscription': invalid template argument for 'MessageT', type expected
+[3.719s]   
+[3.813s]   Building Custom Rule C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt
+[3.922s]   listener.vcxproj -> C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\Release\listener.exe
+[4.031s]   Building Custom Rule C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt
+[4.109s]   talker.vcxproj -> C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\Release\talker.exe
+[4.172s] Invoked command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub' returned '1': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub --config Release
