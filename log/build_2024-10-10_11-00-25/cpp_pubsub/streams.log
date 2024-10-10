@@ -1,0 +1,24 @@
+[0.219s] Invoking command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub --config Release
+[0.407s] MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+[0.766s] 
+[2.360s]   1>Checking Build System
+[2.625s]   Building Custom Rule C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt
+[2.813s]   talker.vcxproj -> C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\Release\talker.exe
+[2.891s]   Building Custom Rule C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt
+[3.000s] Invoked command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub' returned '0': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub --config Release
+[3.032s] Invoking command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub': C:\Program Files\CMake\bin\cmake.EXE --install C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub --config Release
+[3.047s] -- Up-to-date: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/lib/cpp_pubsub/talker.exe
+[3.047s] -- Up-to-date: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[3.047s] -- Up-to-date: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[3.047s] -- Up-to-date: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.bat
+[3.047s] -- Up-to-date: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[3.047s] -- Up-to-date: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/environment/path.bat
+[3.063s] -- Up-to-date: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[3.063s] -- Up-to-date: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/local_setup.bat
+[3.063s] -- Up-to-date: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[3.063s] -- Installing: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[3.063s] -- Up-to-date: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[3.063s] -- Up-to-date: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[3.063s] -- Up-to-date: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[3.063s] -- Up-to-date: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[3.063s] Invoked command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub' returned '0': C:\Program Files\CMake\bin\cmake.EXE --install C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub --config Release

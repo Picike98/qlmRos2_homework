@@ -1,8 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000000] (nodes) JobQueued: {'identifier': 'nodes', 'dependencies': OrderedDict()}
-[0.000000] (nodes) JobStarted: {'identifier': 'nodes'}
-[0.093000] (nodes) JobProgress: {'identifier': 'nodes', 'progress': 'cmake'}
-[0.093000] (nodes) StderrLine: {'line': b'Traceback (most recent call last):\n  File "c:\\python38\\lib\\site-packages\\colcon_core\\executor\\__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "c:\\python38\\lib\\site-packages\\colcon_core\\task\\__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "c:\\python38\\lib\\site-packages\\colcon_ros\\task\\ament_cmake\\build.py", line 59, in build\n    rc = await extension.build(\n  File "c:\\python38\\lib\\site-packages\\colcon_cmake\\task\\cmake\\build.py", line 87, in build\n    rc = await self._reconfigure(args, env)\n  File "c:\\python38\\lib\\site-packages\\colcon_cmake\\task\\cmake\\build.py", line 153, in _reconfigure\n    raise RuntimeError(\nRuntimeError: VisualStudioVersion is not set, please run within a Visual Studio Command Prompt.\n'}
-[0.093000] (nodes) JobEnded: {'identifier': 'nodes', 'rc': 1}
-[0.109000] (-) TimerEvent: {}
-[0.125000] (-) EventReactorShutdown: {}

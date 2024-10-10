@@ -1,0 +1,49 @@
+[0.141s] Invoking command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub': C:\Program Files\CMake\bin\cmake.EXE C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub -DCMAKE_INSTALL_PREFIX=C:\Users\Asus\Documents\Git\qlmRos2_homework\install\cpp_pubsub
+[0.156s] -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19045.
+[3.719s] -- The C compiler identification is MSVC 19.41.34120.0
+[5.719s] -- The CXX compiler identification is MSVC 19.41.34120.0
+[5.766s] -- Detecting C compiler ABI info
+[7.766s] -- Detecting C compiler ABI info - done
+[7.781s] -- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe - skipped
+[7.781s] -- Detecting C compile features
+[7.781s] -- Detecting C compile features - done
+[7.797s] -- Detecting CXX compiler ABI info
+[9.781s] -- Detecting CXX compiler ABI info - done
+[9.797s] -- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe - skipped
+[9.797s] -- Detecting CXX compile features
+[9.797s] -- Detecting CXX compile features - done
+[9.813s] -- Found ament_cmake: 1.3.10 (C:/dev/ros2_humble/share/ament_cmake/cmake)
+[14.703s] -- Found Python3: C:/Python38/python.exe (found version "3.8.3") found components: Interpreter
+[14.906s] -- Found ament_lint_auto: 0.12.11 (C:/dev/ros2_humble/share/ament_lint_auto/cmake)
+[15.063s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.063s] -- Configured cppcheck include dirs: 
+[15.063s] -- Configured cppcheck exclude dirs and/or files: 
+[15.063s] -- Added test 'lint_cmake' to check CMake code style
+[15.078s] -- Added test 'uncrustify' to check C / C++ code style
+[15.078s] -- Configured uncrustify additional arguments: 
+[15.078s] -- Added test 'xmllint' to check XML markup files
+[15.109s] -- Configuring done (15.0s)
+[15.172s] -- Generating done (0.1s)
+[15.188s] -- Build files have been written to: C:/Users/Asus/Documents/Git/qlmRos2_homework/build/cpp_pubsub
+[15.203s] Invoked command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub' returned '0': C:\Program Files\CMake\bin\cmake.EXE C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub -DCMAKE_INSTALL_PREFIX=C:\Users\Asus\Documents\Git\qlmRos2_homework\install\cpp_pubsub
+[15.203s] Invoking command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub --config Release
+[15.344s] MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+[15.656s] 
+[16.844s]   1>Checking Build System
+[17.000s]   Building Custom Rule C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt
+[17.109s] Invoked command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub' returned '0': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub --config Release
+[17.141s] Invoking command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub': C:\Program Files\CMake\bin\cmake.EXE --install C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub --config Release
+[17.156s] -- Installing: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[17.156s] -- Installing: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[17.156s] -- Installing: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.bat
+[17.156s] -- Installing: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[17.156s] -- Installing: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/environment/path.bat
+[17.156s] -- Installing: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[17.172s] -- Installing: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/local_setup.bat
+[17.172s] -- Installing: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[17.172s] -- Installing: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[17.172s] -- Installing: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[17.172s] -- Installing: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[17.172s] -- Installing: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[17.172s] -- Installing: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[17.172s] Invoked command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub' returned '0': C:\Program Files\CMake\bin\cmake.EXE --install C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub --config Release

@@ -1,0 +1,7 @@
+[0.125s] Invoking command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub': C:\Program Files\CMake\bin\cmake.EXE C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub -DCMAKE_INSTALL_PREFIX=C:\Users\Asus\Documents\Git\qlmRos2_homework\install\cpp_pubsub
+[0.141s] CMake Error at CMakeLists.txt:4:
+[0.141s]   Parse error.  Expected "(", got identifier with text "to".
+[0.141s] 
+[0.141s] 
+[0.141s] -- Configuring incomplete, errors occurred!
+[0.141s] Invoked command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub' returned '1': C:\Program Files\CMake\bin\cmake.EXE C:\Users\Asus\Documents\Git\qlmRos2_homework\src\cpp_pubsub -DCMAKE_INSTALL_PREFIX=C:\Users\Asus\Documents\Git\qlmRos2_homework\install\cpp_pubsub

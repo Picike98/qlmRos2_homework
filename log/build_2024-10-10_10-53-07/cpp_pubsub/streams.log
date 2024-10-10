@@ -1,0 +1,60 @@
+[0.140s] Invoking command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub --config Release
+[0.156s] CMake is re-running because C:/Users/Asus/Documents/Git/qlmRos2_homework/build/cpp_pubsub/CMakeFiles/generate.stamp is out-of-date.
+[0.156s]   the file 'C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt'
+[0.156s]   is newer than 'C:/Users/Asus/Documents/Git/qlmRos2_homework/build/cpp_pubsub/CMakeFiles/generate.stamp.depend'
+[0.156s]   result='-1'
+[0.156s] -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19045.
+[0.187s] -- Found ament_cmake: 1.3.10 (C:/dev/ros2_humble/share/ament_cmake/cmake)
+[0.719s] -- Found rclcpp: 16.0.10 (C:/dev/ros2_humble/share/rclcpp/cmake)
+[0.875s] -- Found rosidl_generator_c: 3.1.5 (C:/dev/ros2_humble/share/rosidl_generator_c/cmake)
+[0.890s] -- Found rosidl_adapter: 3.1.5 (C:/dev/ros2_humble/share/rosidl_adapter/cmake)
+[0.922s] -- Found rosidl_generator_cpp: 3.1.5 (C:/dev/ros2_humble/share/rosidl_generator_cpp/cmake)
+[0.969s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.047s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.219s] -- Found rmw_implementation_cmake: 6.1.2 (C:/dev/ros2_humble/share/rmw_implementation_cmake/cmake)
+[1.234s] -- Found rmw_fastrtps_cpp: 6.2.7 (C:/dev/ros2_humble/share/rmw_fastrtps_cpp/cmake)
+[1.469s] -- Found FastRTPS: C:/dev/ros2_humble/include
+[1.500s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.531s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.469s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.469s] -- Looking for pthread_create in pthreads
+[5.344s] -- Looking for pthread_create in pthreads - not found
+[5.344s] -- Looking for pthread_create in pthread
+[7.234s] -- Looking for pthread_create in pthread - not found
+[7.234s] -- Found Threads: TRUE
+[7.344s] -- Found std_msgs: 4.2.4 (C:/dev/ros2_humble/share/std_msgs/cmake)
+[7.375s] -- Found ament_lint_auto: 0.12.11 (C:/dev/ros2_humble/share/ament_lint_auto/cmake)
+[7.515s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.515s] -- Configured cppcheck include dirs: 
+[7.515s] -- Configured cppcheck exclude dirs and/or files: 
+[7.515s] -- Added test 'lint_cmake' to check CMake code style
+[7.515s] -- Added test 'uncrustify' to check C / C++ code style
+[7.515s] -- Configured uncrustify additional arguments: 
+[7.515s] -- Added test 'xmllint' to check XML markup files
+[7.531s] -- Configuring done (7.4s)
+[7.734s] -- Generating done (0.2s)
+[7.734s] -- Build files have been written to: C:/Users/Asus/Documents/Git/qlmRos2_homework/build/cpp_pubsub
+[7.828s] MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+[8.140s] 
+[9.375s]   1>Checking Build System
+[9.609s]   Building Custom Rule C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt
+[9.797s]   publisher_member_function.cpp
+[14.828s]   talker.vcxproj -> C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\Release\talker.exe
+[14.906s]   Building Custom Rule C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt
+[15.031s] Invoked command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub' returned '0': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub --config Release
+[15.062s] Invoking command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub': C:\Program Files\CMake\bin\cmake.EXE --install C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub --config Release
+[15.078s] -- Installing: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/lib/cpp_pubsub/talker.exe
+[15.094s] -- Installing: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[15.094s] -- Up-to-date: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[15.094s] -- Up-to-date: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.bat
+[15.094s] -- Installing: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[15.094s] -- Up-to-date: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/environment/path.bat
+[15.094s] -- Installing: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[15.094s] -- Up-to-date: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/local_setup.bat
+[15.094s] -- Installing: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[15.094s] -- Installing: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[15.094s] -- Up-to-date: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[15.094s] -- Up-to-date: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[15.094s] -- Up-to-date: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[15.094s] -- Installing: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[15.109s] Invoked command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub' returned '0': C:\Program Files\CMake\bin\cmake.EXE --install C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub --config Release

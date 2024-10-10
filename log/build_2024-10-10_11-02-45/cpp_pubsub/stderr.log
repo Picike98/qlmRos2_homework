@@ -1,0 +1,8 @@
+CMake Error at cmake_install.cmake:39 (file):
+  file INSTALL cannot copy file
+  "C:/Users/Asus/Documents/Git/qlmRos2_homework/build/cpp_pubsub/Release/talker.exe"
+  to
+  "C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/lib/cpp_pubsub/talker.exe":
+  Permission denied.
+
+

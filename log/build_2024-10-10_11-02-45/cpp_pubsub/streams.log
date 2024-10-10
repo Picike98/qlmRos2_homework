@@ -1,0 +1,50 @@
+[0.109s] Invoking command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub --config Release
+[0.140s] CMake is re-running because C:/Users/Asus/Documents/Git/qlmRos2_homework/build/cpp_pubsub/CMakeFiles/generate.stamp is out-of-date.
+[0.140s]   the file 'C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt'
+[0.140s]   is newer than 'C:/Users/Asus/Documents/Git/qlmRos2_homework/build/cpp_pubsub/CMakeFiles/generate.stamp.depend'
+[0.140s]   result='-1'
+[0.140s] -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19045.
+[0.172s] -- Found ament_cmake: 1.3.10 (C:/dev/ros2_humble/share/ament_cmake/cmake)
+[0.703s] -- Found rclcpp: 16.0.10 (C:/dev/ros2_humble/share/rclcpp/cmake)
+[0.781s] -- Found rosidl_generator_c: 3.1.5 (C:/dev/ros2_humble/share/rosidl_generator_c/cmake)
+[0.781s] -- Found rosidl_adapter: 3.1.5 (C:/dev/ros2_humble/share/rosidl_adapter/cmake)
+[0.812s] -- Found rosidl_generator_cpp: 3.1.5 (C:/dev/ros2_humble/share/rosidl_generator_cpp/cmake)
+[0.843s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.890s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.015s] -- Found rmw_implementation_cmake: 6.1.2 (C:/dev/ros2_humble/share/rmw_implementation_cmake/cmake)
+[1.031s] -- Found rmw_fastrtps_cpp: 6.2.7 (C:/dev/ros2_humble/share/rmw_fastrtps_cpp/cmake)
+[1.156s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.281s] -- Found std_msgs: 4.2.4 (C:/dev/ros2_humble/share/std_msgs/cmake)
+[1.312s] -- Found ament_lint_auto: 0.12.11 (C:/dev/ros2_humble/share/ament_lint_auto/cmake)
+[1.437s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.437s] -- Configured cppcheck include dirs: 
+[1.437s] -- Configured cppcheck exclude dirs and/or files: 
+[1.437s] -- Added test 'lint_cmake' to check CMake code style
+[1.453s] -- Added test 'uncrustify' to check C / C++ code style
+[1.453s] -- Configured uncrustify additional arguments: 
+[1.453s] -- Added test 'xmllint' to check XML markup files
+[1.468s] -- Configuring done (1.3s)
+[1.718s] -- Generating done (0.2s)
+[1.718s] -- Build files have been written to: C:/Users/Asus/Documents/Git/qlmRos2_homework/build/cpp_pubsub
+[1.812s] MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+[2.109s] 
+[3.328s]   1>Checking Build System
+[3.562s]   Building Custom Rule C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt
+[3.765s]   subscriber_member_function.cpp
+[10.062s]   listener.vcxproj -> C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\Release\listener.exe
+[10.172s]   Building Custom Rule C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt
+[10.297s]   publisher_member_function.cpp
+[15.078s]   talker.vcxproj -> C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\Release\talker.exe
+[15.172s]   Building Custom Rule C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt
+[15.297s] Invoked command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub' returned '0': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub --config Release
+[15.328s] Invoking command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub': C:\Program Files\CMake\bin\cmake.EXE --install C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub --config Release
+[15.343s] -- Installing: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/lib/cpp_pubsub/talker.exe
+[15.343s] CMake Error at cmake_install.cmake:39 (file):
+[15.343s]   file INSTALL cannot copy file
+[15.343s]   "C:/Users/Asus/Documents/Git/qlmRos2_homework/build/cpp_pubsub/Release/talker.exe"
+[15.343s]   to
+[15.343s]   "C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/lib/cpp_pubsub/talker.exe":
+[15.343s]   Permission denied.
+[15.343s] 
+[15.343s] 
+[15.359s] Invoked command in 'C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub' returned '1': C:\Program Files\CMake\bin\cmake.EXE --install C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub --config Release

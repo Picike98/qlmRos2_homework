@@ -1,0 +1,46 @@
+CMake is re-running because C:/Users/Asus/Documents/Git/qlmRos2_homework/build/cpp_pubsub/CMakeFiles/generate.stamp is out-of-date.
+  the file 'C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt'
+  is newer than 'C:/Users/Asus/Documents/Git/qlmRos2_homework/build/cpp_pubsub/CMakeFiles/generate.stamp.depend'
+  result='-1'
+-- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19045.
+-- Found ament_cmake: 1.3.10 (C:/dev/ros2_humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (C:/dev/ros2_humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (C:/dev/ros2_humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (C:/dev/ros2_humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (C:/dev/ros2_humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (C:/dev/ros2_humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (C:/dev/ros2_humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 4.2.4 (C:/dev/ros2_humble/share/std_msgs/cmake)
+-- Found ament_lint_auto: 0.12.11 (C:/dev/ros2_humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.3s)
+-- Generating done (0.2s)
+-- Build files have been written to: C:/Users/Asus/Documents/Git/qlmRos2_homework/build/cpp_pubsub
+MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt
+  subscriber_member_function.cpp
+  listener.vcxproj -> C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\Release\listener.exe
+  Building Custom Rule C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt
+  publisher_member_function.cpp
+  talker.vcxproj -> C:\Users\Asus\Documents\Git\qlmRos2_homework\build\cpp_pubsub\Release\talker.exe
+  Building Custom Rule C:/Users/Asus/Documents/Git/qlmRos2_homework/src/cpp_pubsub/CMakeLists.txt
+-- Installing: C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/lib/cpp_pubsub/talker.exe
+CMake Error at cmake_install.cmake:39 (file):
+  file INSTALL cannot copy file
+  "C:/Users/Asus/Documents/Git/qlmRos2_homework/build/cpp_pubsub/Release/talker.exe"
+  to
+  "C:/Users/Asus/Documents/Git/qlmRos2_homework/install/cpp_pubsub/lib/cpp_pubsub/talker.exe":
+  Permission denied.
+
+
